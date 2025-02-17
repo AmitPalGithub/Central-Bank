@@ -23,4 +23,5 @@ public class ResponseDto {
             description = "Status message in the response", example = "Request processed successfully"
     )
     private String statusMessage;
+
 }
