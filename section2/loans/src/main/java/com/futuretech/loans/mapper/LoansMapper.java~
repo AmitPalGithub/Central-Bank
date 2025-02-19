@@ -1,0 +1,20 @@
+package com.futuretech.loans.mapper;
+
+import com.futuretech.loans.dto.LoansDto;
+import com.futuretech.loans.entity.Loans;
+
+public class LoansMapper {
+
+    public static LoansDto mapToLoansDto(Loans loans, LoansDto loansDto) {
+        loansDto.setLoanNumber(loans.getLoanNumber());
+        loansDto.setLoanType(loans.getLoanType());
+        loansDto.setMobileNumber(loans.getMobileNumber());
+        loansDto.setTotalLoan(loans.getTotalLoan());
+        loansDto.setAmountPaid(loans.getAmountPaid());
+        loansDto.setOutstandingAmount(loans.getOutstandingAmount());
+        return loansDto;
+    }
+
+    
+
+}

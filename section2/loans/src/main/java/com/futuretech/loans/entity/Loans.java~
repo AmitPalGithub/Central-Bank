@@ -1,0 +1,16 @@
+package com.futuretech.loans.entity;
+
+
+import jakarta.persistence.Entity;
+import lombok.*;
+
+@Entity
+@Getter
+@Setter
+@ToString
+@AllArgsConstructor
+@NoArgsConstructor
+public class Loans extends BaseEntity{
+
+    
+}
